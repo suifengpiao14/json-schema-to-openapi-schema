@@ -22,7 +22,7 @@ function convert(schema, options = {}) {
 function stripIllegalKeywords(schema) {
 	delete schema['$schema'];
 	delete schema['$id'];
-	delete schema['id'];
+	//delete schema['id'];
 	return schema;
 }
 
